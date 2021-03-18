@@ -1,10 +1,42 @@
 * {
     margin: 0;
     padding: 0;
+    --WECOblue: #0081c3;
+    --textColor: #222222;
+    font-family: 'Exo 2';
 }
 
 /* header styling start */
-header {
+#header {
+    display: grid;
+    color: var(--textColor);
+    grid-template-columns: auto 440px;
+    width: 100%;
+    background-color: var(--WECOblue);
+}
+
+#header-graphic {
+    display: flex;
+    margin: 0 0 0 13px;
+    align-items: center;
+}
+
+#header nav ul {
+    height: 69px;
+    margin: 0 19px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+#header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: var(--textColor);
 }
 /* header styling end */
