@@ -2,17 +2,24 @@
     margin: 0;
     padding: 0;
     --WECOblue: #0081c3;
-    --textColor: #222222;
+    --textDark: #222222;
+    --backgroundDark: #111111;
+    --textLight: #cfcfcf;
+    --backgroundLight: #c1c1c1;
     font-family: 'Exo 2';
 }
 
+/* * {
+    border: 1px solid #00000020;
+} */
+
 a {
-    color: var(--textColor);
+    color: var(--textDark);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--textColor);
+    color: var(--textDark);
 }
 
 .sticky {
@@ -36,7 +43,23 @@ section {
 
 /* header styling start */
 #header {
-    color: var(--textColor);
+    color: var(--textDark);
     background-color: var(--WECOblue);
 }
 /* header styling end */
+
+/* hero styling start */
+#hero {
+    color: var(--textLight);
+    height: 30rem;
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--textDark)
+}
+
+#hero-container {
+    border-radius: 4px;
+    background-color: var(--WECOblue);
+}
+/* hero styling end */
