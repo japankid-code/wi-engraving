@@ -23,6 +23,17 @@ a:hover {
     z-index: 999;
 }
 
+section {
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.specialty-card {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
 /* header styling start */
 #header {
     color: var(--textColor);
