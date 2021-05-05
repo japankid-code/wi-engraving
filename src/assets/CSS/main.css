@@ -1,6 +1,6 @@
 /*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
 
-/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
 Document
@@ -12,8 +12,8 @@ Use a better box model (opinionated).
 */
 
 *,
-*::before,
-*::after {
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ Use a better box model (opinionated).
 Use a more readable tab size (opinionated).
 */
 
-:root {
+html {
   -moz-tab-size: 4;
   tab-size: 4;
 }
@@ -24926,14 +24926,6 @@ video {
 }
 
 .invisible {
-  visibility: hidden;
-}
-
-.group:hover .group-hover\:visible {
-  visibility: visible;
-}
-
-.group:hover .group-hover\:invisible {
   visibility: hidden;
 }
 
@@ -54261,14 +54253,6 @@ video {
     visibility: hidden;
   }
 
-  .group:hover .sm\:group-hover\:visible {
-    visibility: visible;
-  }
-
-  .group:hover .sm\:group-hover\:invisible {
-    visibility: hidden;
-  }
-
   .sm\:whitespace-normal {
     white-space: normal;
   }
@@ -83468,14 +83452,6 @@ video {
   }
 
   .md\:invisible {
-    visibility: hidden;
-  }
-
-  .group:hover .md\:group-hover\:visible {
-    visibility: visible;
-  }
-
-  .group:hover .md\:group-hover\:invisible {
     visibility: hidden;
   }
 
@@ -112681,14 +112657,6 @@ video {
     visibility: hidden;
   }
 
-  .group:hover .lg\:group-hover\:visible {
-    visibility: visible;
-  }
-
-  .group:hover .lg\:group-hover\:invisible {
-    visibility: hidden;
-  }
-
   .lg\:whitespace-normal {
     white-space: normal;
   }
@@ -141891,14 +141859,6 @@ video {
     visibility: hidden;
   }
 
-  .group:hover .xl\:group-hover\:visible {
-    visibility: visible;
-  }
-
-  .group:hover .xl\:group-hover\:invisible {
-    visibility: hidden;
-  }
-
   .xl\:whitespace-normal {
     white-space: normal;
   }
@@ -171098,14 +171058,6 @@ video {
   }
 
   .\32xl\:invisible {
-    visibility: hidden;
-  }
-
-  .group:hover .\32xl\:group-hover\:visible {
-    visibility: visible;
-  }
-
-  .group:hover .\32xl\:group-hover\:invisible {
     visibility: hidden;
   }
 
