@@ -4,7 +4,7 @@ import Whatwedo from './Whatwedo';
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <Header></Header>
       <Hero></Hero>
       <Whatwedo></Whatwedo>

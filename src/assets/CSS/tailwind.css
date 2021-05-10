@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+body { /* regular font */
+    font-family: 'Exo 2' sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { /* bold font */
+    font-family: 'Exo', sans-serif;
+}
