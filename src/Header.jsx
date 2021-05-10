@@ -37,7 +37,7 @@ function Header() {
           src="https://anima-uploads.s3.amazonaws.com/projects/608b046520169a1bb3180a69/releases/608b0cdfa6b68b267305c868/img/weco-logo-1@1x.png"
         />
         <nav className="relative place-self-center grid grid-cols-3 text-center items-center"> 
-          <div id='hover-dropdown' className="group">
+          <div id='hover-dropdown' className="group whitespace-nowrap">
             <a href='#services' className='text-sm text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer'>
                 Services &darr;
             </a>
