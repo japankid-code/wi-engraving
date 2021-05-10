@@ -1,4 +1,3 @@
-
 function Dropdown() {
   return (
     <div id='nav-dropdown' className="absolute hidden text-gray-300 top-5 left bg-gray-900 bg-opacity-95 self-center rounded-lg p-1 m-1 group-hover:block">
@@ -38,15 +37,15 @@ function Header() {
         />
         <nav className="relative place-self-center grid grid-cols-3 text-center items-center"> 
           <div id='hover-dropdown' className="group whitespace-nowrap">
-            <a href='#services' className='text-sm text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer'>
+            <a href='#services' className='text-sm sm:text-md lg:text-xl text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer'>
                 Services &darr;
             </a>
             <Dropdown></Dropdown>
           </div>
-          <a href='#about' className="text-sm text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer">
+          <a href='#about' className="text-sm md:text-md lg:text-xl text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer">
             About
           </a>
-          <a href='#contact' className="text-sm text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer">
+          <a href='#contact' className="text-sm md:text-md lg:text-xl text-gray-300 inline sm:m-1 px-1.5 rounded-lg hover:bg-gray-800 hover:bg-opacity-50 cursor-pointer">
             Contact
           </a>
         </nav>
