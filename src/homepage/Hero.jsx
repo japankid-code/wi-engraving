@@ -19,9 +19,10 @@ function Hero() {
     <section id="hero" className="" style={heroImage}>
       <div className="flex flex-col items-center" style={bgGradient}>
         <div className="h-48"></div>
-        <h1 className="text-xl sm:text-2xl md:text-6xl whitespace-nowrap p-8" style={textShadow}>CRAFTSMEN DEDICATED TO DETAIL</h1>
+        <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl text-gray-100 whitespace-nowrap p-8" style={textShadow}>CRAFTSMEN DEDICATED TO DETAIL</h1>
+        <div className="h-12"></div>
         <div id='greeting-card' className="p-2 px-3 m-8 mb-16 bg-gray-300 bg-opacity-30 rounded-lg shadow-md">
-          <h2 className="text-md text-justify max-w-lg">
+          <h2 className="text-md lg:text-xl text-gray-200 text-justify max-w-lg lg:max-w-2xl">
           Since 1922, Wisconsin Engraving Company is
           constantly exploring new techniques and investing in 
           research and development to give our customers the
